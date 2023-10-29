@@ -9,10 +9,10 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-def print1_10(i):
-    while i < 11:
-        print(i)
-        i += 1
+def print1_10(xer):
+    while xer < 11:
+        print(xer)
+        xer += 1
 
 
 # Press the green button in the gutter to run the script.
@@ -21,4 +21,27 @@ if __name__ == '__main__':
 
 i = 0
 print1_10(i)
+
+# factorial
+x = 1
+count = 0
+number = int(input())
+while count < number:
+    count += 1
+    x *= count
+else:
+    print(x)
+
+alphabet = 'абвгдеёжзийклмнопрстуфхцчшщьъэюя'
+str_ = input("Input str:\n")
+for i in alphabet:
+    count = 0
+    for r in str_:
+        if i == r:
+            count += 1
+    if count > 0:
+        print("Букв ", i, " было ", count)
+
+for x in range(1, 10, 2):
+    print(x)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
