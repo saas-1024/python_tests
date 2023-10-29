@@ -44,4 +44,9 @@ for i in alphabet:
 
 for x in range(1, 10, 2):
     print(x)
+
+# python lists
+m = [1, 2, 1, 3, 5]
+print(m[0])
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
