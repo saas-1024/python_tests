@@ -55,3 +55,7 @@ print(new_set)
 #  Words of unique words from 2 different sets
 
 new_set2 = new_set.intersection(set(reader2))
+print("kek\n")
+print(new_set2)
+reader.close()
+reader2.close()
