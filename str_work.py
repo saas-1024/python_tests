@@ -43,3 +43,14 @@ print(rer1)
 rer2 = rer1.split()
 print(rer2)
 
+enter = input("Your name: ")
+s = 'Hello %s, I am %s' % (enter, 'Python')
+print(s)
+
+s1 = 'Hello {1}, I am {0}'.format(enter, 'Python')
+print(s1)
+
+s3 = f'Hello {enter}, I can do it in f-string {2+2}'
+print(s3)
+
+
